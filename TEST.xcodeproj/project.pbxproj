@@ -15,13 +15,13 @@
 		B73BC27B1C90A3B300A8858A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B73BC2791C90A3B300A8858A /* LaunchScreen.storyboard */; };
 		B73BC2861C90A3B300A8858A /* TESTTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B73BC2851C90A3B300A8858A /* TESTTests.m */; };
 		B73BC2911C90A3B300A8858A /* TESTUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B73BC2901C90A3B300A8858A /* TESTUITests.m */; };
-		B73BC2A01C90A83B00A8858A /* RPPreloadDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B73BC29F1C90A83B00A8858A /* RPPreloadDataManager.m */; };
 		B73BC2A41C90A99100A8858A /* iOS-Android Data.json in Resources */ = {isa = PBXBuildFile; fileRef = B73BC2A31C90A99100A8858A /* iOS-Android Data.json */; };
 		B73BC2A81C90AC4400A8858A /* RPCardTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B73BC2A61C90AC4400A8858A /* RPCardTableViewCell.m */; };
 		B73BC2A91C90AC4400A8858A /* RPCardTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B73BC2A71C90AC4400A8858A /* RPCardTableViewCell.xib */; };
 		B73BC2AD1C90AE2900A8858A /* RPStoryCardDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B73BC2AB1C90AE2900A8858A /* RPStoryCardDetailsViewController.m */; };
 		B73BC2AE1C90AE2900A8858A /* RPStoryCardDetailsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B73BC2AC1C90AE2900A8858A /* RPStoryCardDetailsViewController.xib */; };
-		B73BC2B11C91243000A8858A /* RPHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = B73BC2B01C91243000A8858A /* RPHelper.m */; };
+		B73BC2B71C913D0900A8858A /* RPHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = B73BC2B41C913D0900A8858A /* RPHelper.m */; };
+		B73BC2B81C913D0900A8858A /* RPPreloadDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B73BC2B61C913D0900A8858A /* RPPreloadDataManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,8 +58,6 @@
 		B73BC28C1C90A3B300A8858A /* TESTUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TESTUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B73BC2901C90A3B300A8858A /* TESTUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TESTUITests.m; sourceTree = "<group>"; };
 		B73BC2921C90A3B300A8858A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B73BC29E1C90A83B00A8858A /* RPPreloadDataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RPPreloadDataManager.h; path = ../../RPPreloadDataManager.h; sourceTree = "<group>"; };
-		B73BC29F1C90A83B00A8858A /* RPPreloadDataManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RPPreloadDataManager.m; path = ../../RPPreloadDataManager.m; sourceTree = "<group>"; };
 		B73BC2A21C90A89300A8858A /* CWLSynthesizeSingleton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CWLSynthesizeSingleton.h; sourceTree = "<group>"; };
 		B73BC2A31C90A99100A8858A /* iOS-Android Data.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = "iOS-Android Data.json"; path = "../../../Downloads/iOS-Android Data.json"; sourceTree = "<group>"; };
 		B73BC2A51C90AC4400A8858A /* RPCardTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RPCardTableViewCell.h; sourceTree = "<group>"; };
@@ -68,8 +66,10 @@
 		B73BC2AA1C90AE2900A8858A /* RPStoryCardDetailsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RPStoryCardDetailsViewController.h; sourceTree = "<group>"; };
 		B73BC2AB1C90AE2900A8858A /* RPStoryCardDetailsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RPStoryCardDetailsViewController.m; sourceTree = "<group>"; };
 		B73BC2AC1C90AE2900A8858A /* RPStoryCardDetailsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RPStoryCardDetailsViewController.xib; sourceTree = "<group>"; };
-		B73BC2AF1C91243000A8858A /* RPHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RPHelper.h; sourceTree = "<group>"; };
-		B73BC2B01C91243000A8858A /* RPHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RPHelper.m; sourceTree = "<group>"; };
+		B73BC2B31C913D0900A8858A /* RPHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RPHelper.h; sourceTree = "<group>"; };
+		B73BC2B41C913D0900A8858A /* RPHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RPHelper.m; sourceTree = "<group>"; };
+		B73BC2B51C913D0900A8858A /* RPPreloadDataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RPPreloadDataManager.h; sourceTree = "<group>"; };
+		B73BC2B61C913D0900A8858A /* RPPreloadDataManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RPPreloadDataManager.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -130,10 +130,7 @@
 				B73BC2A51C90AC4400A8858A /* RPCardTableViewCell.h */,
 				B73BC2A61C90AC4400A8858A /* RPCardTableViewCell.m */,
 				B73BC2A71C90AC4400A8858A /* RPCardTableViewCell.xib */,
-				B73BC29E1C90A83B00A8858A /* RPPreloadDataManager.h */,
-				B73BC29F1C90A83B00A8858A /* RPPreloadDataManager.m */,
-				B73BC2AF1C91243000A8858A /* RPHelper.h */,
-				B73BC2B01C91243000A8858A /* RPHelper.m */,
+				B73BC2B21C913D0900A8858A /* Helper */,
 				B73BC2A11C90A89300A8858A /* ThirdParty */,
 				B73BC2741C90A3B300A8858A /* Main.storyboard */,
 				B73BC2771C90A3B300A8858A /* Assets.xcassets */,
@@ -177,6 +174,17 @@
 				B73BC2A21C90A89300A8858A /* CWLSynthesizeSingleton.h */,
 			);
 			path = ThirdParty;
+			sourceTree = "<group>";
+		};
+		B73BC2B21C913D0900A8858A /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				B73BC2B31C913D0900A8858A /* RPHelper.h */,
+				B73BC2B41C913D0900A8858A /* RPHelper.m */,
+				B73BC2B51C913D0900A8858A /* RPPreloadDataManager.h */,
+				B73BC2B61C913D0900A8858A /* RPPreloadDataManager.m */,
+			);
+			path = Helper;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -313,12 +321,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				B73BC2731C90A3B300A8858A /* RPStoryCardViewController.m in Sources */,
+				B73BC2B81C913D0900A8858A /* RPPreloadDataManager.m in Sources */,
 				B73BC2A81C90AC4400A8858A /* RPCardTableViewCell.m in Sources */,
 				B73BC2701C90A3B300A8858A /* AppDelegate.m in Sources */,
-				B73BC2B11C91243000A8858A /* RPHelper.m in Sources */,
 				B73BC26D1C90A3B300A8858A /* main.m in Sources */,
-				B73BC2A01C90A83B00A8858A /* RPPreloadDataManager.m in Sources */,
 				B73BC2AD1C90AE2900A8858A /* RPStoryCardDetailsViewController.m in Sources */,
+				B73BC2B71C913D0900A8858A /* RPHelper.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
