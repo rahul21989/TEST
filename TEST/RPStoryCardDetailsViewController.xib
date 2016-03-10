@@ -17,11 +17,14 @@
             <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
             <subviews>
-                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="tsA-bW-GPl">
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="tsA-bW-GPl">
                     <rect key="frame" x="0.0" y="0.0" width="320" height="274"/>
                 </imageView>
-                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PqC-CH-95t">
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PqC-CH-95t">
                     <rect key="frame" x="18" y="292" width="271" height="230"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="230" id="i1W-4N-quC"/>
+                    </constraints>
                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                     <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                     <nil key="highlightedColor"/>
@@ -35,7 +38,24 @@
                 </button>
             </subviews>
             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="tsA-bW-GPl" firstAttribute="width" secondItem="i5M-Pr-FkT" secondAttribute="width" id="6xf-2W-Rg7"/>
+                <constraint firstItem="PqC-CH-95t" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="18" id="B5C-cw-Obe"/>
+                <constraint firstItem="PqC-CH-95t" firstAttribute="top" secondItem="tsA-bW-GPl" secondAttribute="top" id="FB4-ES-D8x"/>
+                <constraint firstItem="PqC-CH-95t" firstAttribute="top" secondItem="tsA-bW-GPl" secondAttribute="bottom" constant="18" id="Jkg-UK-dN5"/>
+                <constraint firstItem="PqC-CH-95t" firstAttribute="top" secondItem="tsA-bW-GPl" secondAttribute="bottom" constant="18" id="Tnx-RB-JCN"/>
+                <constraint firstItem="tsA-bW-GPl" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="aMl-mc-mgy"/>
+                <constraint firstAttribute="bottom" secondItem="PqC-CH-95t" secondAttribute="bottom" constant="46" id="bOh-HG-jCv"/>
+                <constraint firstAttribute="trailing" secondItem="PqC-CH-95t" secondAttribute="trailing" constant="31" id="mpc-8b-XbT"/>
+                <constraint firstItem="tsA-bW-GPl" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="p9k-m2-LBN"/>
+            </constraints>
             <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+            <variation key="default">
+                <mask key="constraints">
+                    <exclude reference="FB4-ES-D8x"/>
+                    <exclude reference="Tnx-RB-JCN"/>
+                </mask>
+            </variation>
         </view>
     </objects>
     <resources>

@@ -35,12 +35,18 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="QFw-6N-1Yb">
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="QFw-6N-1Yb">
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                             </tableView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="QFw-6N-1Yb" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="00N-1D-e0f"/>
+                            <constraint firstItem="QFw-6N-1Yb" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" id="mmD-ti-beW"/>
+                            <constraint firstItem="QFw-6N-1Yb" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" id="r50-ZX-WOd"/>
+                            <constraint firstItem="QFw-6N-1Yb" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="v9P-MI-aC8"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="NVG-c2-jax"/>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
