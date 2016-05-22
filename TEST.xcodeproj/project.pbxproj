@@ -15,13 +15,14 @@
 		B73BC27B1C90A3B300A8858A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B73BC2791C90A3B300A8858A /* LaunchScreen.storyboard */; };
 		B73BC2861C90A3B300A8858A /* TESTTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B73BC2851C90A3B300A8858A /* TESTTests.m */; };
 		B73BC2911C90A3B300A8858A /* TESTUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B73BC2901C90A3B300A8858A /* TESTUITests.m */; };
-		B73BC2A41C90A99100A8858A /* iOS-Android Data.json in Resources */ = {isa = PBXBuildFile; fileRef = B73BC2A31C90A99100A8858A /* iOS-Android Data.json */; };
 		B73BC2A81C90AC4400A8858A /* RPCardTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B73BC2A61C90AC4400A8858A /* RPCardTableViewCell.m */; };
 		B73BC2A91C90AC4400A8858A /* RPCardTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B73BC2A71C90AC4400A8858A /* RPCardTableViewCell.xib */; };
 		B73BC2AD1C90AE2900A8858A /* RPStoryCardDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B73BC2AB1C90AE2900A8858A /* RPStoryCardDetailsViewController.m */; };
 		B73BC2AE1C90AE2900A8858A /* RPStoryCardDetailsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B73BC2AC1C90AE2900A8858A /* RPStoryCardDetailsViewController.xib */; };
 		B73BC2B71C913D0900A8858A /* RPHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = B73BC2B41C913D0900A8858A /* RPHelper.m */; };
 		B73BC2B81C913D0900A8858A /* RPPreloadDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B73BC2B61C913D0900A8858A /* RPPreloadDataManager.m */; };
+		B7A59A881CF20B68000748EC /* AsyncImageDownloadManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B7A59A871CF20B68000748EC /* AsyncImageDownloadManager.m */; };
+		B7A59A8A1CF20DAC000748EC /* iOS-Android Data.json in Resources */ = {isa = PBXBuildFile; fileRef = B7A59A891CF20DAC000748EC /* iOS-Android Data.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,7 +60,6 @@
 		B73BC2901C90A3B300A8858A /* TESTUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TESTUITests.m; sourceTree = "<group>"; };
 		B73BC2921C90A3B300A8858A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B73BC2A21C90A89300A8858A /* CWLSynthesizeSingleton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CWLSynthesizeSingleton.h; sourceTree = "<group>"; };
-		B73BC2A31C90A99100A8858A /* iOS-Android Data.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = "iOS-Android Data.json"; path = "../../../Downloads/iOS-Android Data.json"; sourceTree = "<group>"; };
 		B73BC2A51C90AC4400A8858A /* RPCardTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RPCardTableViewCell.h; sourceTree = "<group>"; };
 		B73BC2A61C90AC4400A8858A /* RPCardTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RPCardTableViewCell.m; sourceTree = "<group>"; };
 		B73BC2A71C90AC4400A8858A /* RPCardTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RPCardTableViewCell.xib; sourceTree = "<group>"; };
@@ -70,6 +70,9 @@
 		B73BC2B41C913D0900A8858A /* RPHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RPHelper.m; sourceTree = "<group>"; };
 		B73BC2B51C913D0900A8858A /* RPPreloadDataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RPPreloadDataManager.h; sourceTree = "<group>"; };
 		B73BC2B61C913D0900A8858A /* RPPreloadDataManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RPPreloadDataManager.m; sourceTree = "<group>"; };
+		B7A59A861CF20B68000748EC /* AsyncImageDownloadManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AsyncImageDownloadManager.h; sourceTree = "<group>"; };
+		B7A59A871CF20B68000748EC /* AsyncImageDownloadManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AsyncImageDownloadManager.m; sourceTree = "<group>"; };
+		B7A59A891CF20DAC000748EC /* iOS-Android Data.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "iOS-Android Data.json"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -136,7 +139,7 @@
 				B73BC2771C90A3B300A8858A /* Assets.xcassets */,
 				B73BC2791C90A3B300A8858A /* LaunchScreen.storyboard */,
 				B73BC27C1C90A3B300A8858A /* Info.plist */,
-				B73BC2A31C90A99100A8858A /* iOS-Android Data.json */,
+				B7A59A891CF20DAC000748EC /* iOS-Android Data.json */,
 				B73BC26B1C90A3B300A8858A /* Supporting Files */,
 			);
 			path = TEST;
@@ -179,6 +182,8 @@
 		B73BC2B21C913D0900A8858A /* Helper */ = {
 			isa = PBXGroup;
 			children = (
+				B7A59A861CF20B68000748EC /* AsyncImageDownloadManager.h */,
+				B7A59A871CF20B68000748EC /* AsyncImageDownloadManager.m */,
 				B73BC2B31C913D0900A8858A /* RPHelper.h */,
 				B73BC2B41C913D0900A8858A /* RPHelper.m */,
 				B73BC2B51C913D0900A8858A /* RPPreloadDataManager.h */,
@@ -290,9 +295,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B7A59A8A1CF20DAC000748EC /* iOS-Android Data.json in Resources */,
 				B73BC2A91C90AC4400A8858A /* RPCardTableViewCell.xib in Resources */,
 				B73BC2AE1C90AE2900A8858A /* RPStoryCardDetailsViewController.xib in Resources */,
-				B73BC2A41C90A99100A8858A /* iOS-Android Data.json in Resources */,
 				B73BC27B1C90A3B300A8858A /* LaunchScreen.storyboard in Resources */,
 				B73BC2781C90A3B300A8858A /* Assets.xcassets in Resources */,
 				B73BC2761C90A3B300A8858A /* Main.storyboard in Resources */,
@@ -322,6 +327,7 @@
 			files = (
 				B73BC2731C90A3B300A8858A /* RPStoryCardViewController.m in Sources */,
 				B73BC2B81C913D0900A8858A /* RPPreloadDataManager.m in Sources */,
+				B7A59A881CF20B68000748EC /* AsyncImageDownloadManager.m in Sources */,
 				B73BC2A81C90AC4400A8858A /* RPCardTableViewCell.m in Sources */,
 				B73BC2701C90A3B300A8858A /* AppDelegate.m in Sources */,
 				B73BC26D1C90A3B300A8858A /* main.m in Sources */,

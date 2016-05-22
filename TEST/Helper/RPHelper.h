@@ -12,16 +12,6 @@
 
 @interface RPHelper : NSObject
 
-typedef void(^ImageDownloadCompletionHandler)(BOOL succeeded, UIImage *image);
-
-
-/*
- ** this function helps downloand image from URL Asynchronously
- ** scaling the original image
- */
-
-+(void)downloadImageWithURL:(NSURL *)url completionBlock:(ImageDownloadCompletionHandler)block;
-
 
 /*
  ** this function helps read data from a local file

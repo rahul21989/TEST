@@ -7,7 +7,7 @@
 //
 
 #import "RPCardTableViewCell.h"
-#import "RPHelper.h"
+#import "AsyncImageDownloadManager.h"
 
 @interface RPCardTableViewCell()
 @property (nonatomic, strong) IBOutlet UILabel *storyTitle;
@@ -33,15 +33,14 @@
   NSString *imagePath  = [result valueForKey:@"si"];
   NSURL *url = [NSURL URLWithString:imagePath];
   
-  [RPHelper downloadImageWithURL:url completionBlock:^(BOOL succeeded, UIImage *image) {
-    if (succeeded) {
-      // change the image in the cell
-      if (image) {
+  
+  [[AsyncImageDownloadManager sharedManager] downloadImageWithURL:url completionBlock:^(BOOL succeeded, UIImage *image) {
+    if (succeeded && image) {
+      dispatch_async(dispatch_get_main_queue(), ^{
         self.storyImageView.image = image;
-      }
+      });
     }
   }];
-
 }
 
 @end
